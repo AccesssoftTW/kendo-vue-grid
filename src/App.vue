@@ -51,6 +51,7 @@
       :pdf-landscape="true"
       :pdf-repeat-headers="true"
       :pdf-scale="0.8"
+      :groupable="true"
     >
       <kendo-grid-column
         :field="'ProductName'"
